@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 Plugin Name: WC Return products
 Plugin URL: http://cleverconsulting.net/
 Description: Adds a form to order for return product
-Version: 1.0
+Version: 1.01
 Author: Paco Castillo
 Author URI: http://cleverconsulting.net/
 Text Domain: wc_return
