@@ -3,7 +3,7 @@ Contributors: pco_58
 Tags: woocommerce, return, products
 Requires at least: 3.8.1
 Tested up to: 4.2.2
-Stable tag: 1.01
+Stable tag: 1.02 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,7 @@ e.g.
 
 == Changelog ==
 
-= 1.01 =
+= 1.02 = 
 * Fixed error Order id validation message
 
 = 1.0 =
@@ -41,5 +41,5 @@ e.g.
 
 == Upgrade Notice ==
 
-= 1.01 =
+= 1.02 = 
 * This upgrade fixed error with order id when submit form.
