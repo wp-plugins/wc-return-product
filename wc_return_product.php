@@ -12,7 +12,7 @@ Author: Paco Castillo
 Author URI: http://cleverconsulting.net/
 Text Domain: wc_return
 Domain Path: languages
-*/
+*/ 
 
 /**
  * Check if WooCommerce is active
