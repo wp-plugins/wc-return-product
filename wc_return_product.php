@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 Plugin Name: WC Return products
 Plugin URL: http://castillogomez.com/
 Description: Adds a form to order for return product
-Version: 1.1
+Version: 1.2
 Author: Paco Castillo
 Author URI: http://castillogomez.com/
 Text Domain: wc_return
@@ -17,7 +17,7 @@ Domain Path: languages
 /**
  * Check if WooCommerce is active
  **/
-if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) || is_plugin_active_for_network('woocommerce/woocommerce.php') ) {
 
   add_action('wp_head','wc_return_products_ajaxurl');
 
